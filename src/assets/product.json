@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Olympus E-M10 Mark 2",
+        "price": "399.99",
+        "sale": "0.20",
+        "new": "false",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "1",
+        "tag": "mirrorless,camera,mft,m4/3",
+        "cover": "foto1.jpg",
+        "photos": "foto1.jpg,foto2.jpg,foto3.jpg",
+        "rating":"4",
+        "reviews": "5",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    }
+]
