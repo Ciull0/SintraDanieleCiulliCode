@@ -1,0 +1,50 @@
+[
+    {
+        "id":"heroBig",
+        "url":"heroBig.jpg",
+        "title": "Great Photos",
+        "subTitle": "Need Great Equipment"
+    },
+    {
+        "id":"heroSmall1",
+        "url":"heroSmall (1).jpg",
+        "title": "Classic URSS fun",
+        "subTitle": "Cheap Leica? URSS Leica!"
+    },
+    {
+        "id":"heroSmall2",
+        "url":"heroSmall (2).jpg",
+        "title": "Small Beast",
+        "subTitle": "The Best Camera is The One with You"
+    },
+    {
+        "id":"heroSmall3",
+        "url":"heroSmall (3).jpg",
+        "title": "Good Look",
+        "subTitle": "Sometimes the Camera is a Fashion Statement"
+    },
+    {
+        "id":"blog1",
+        "url":"blog (1).jpg",
+        "title": "Portrait Tips",
+        "subTitle": "Some tips to make your Portraits the best around",
+        "author": "Daniele Ciulli",
+        "data": "11/01/2021"
+    },
+    {
+        "id":"blog2",
+        "url":"blog (2).jpg",
+        "title": "Best Instant Cameras",
+        "subTitle": "From Instax to Fujifilm, the best Instant Cameras money can buy",
+        "author": "Daniele Ciulli",
+        "data": "07/01/2021"
+    },
+    {
+        "id":"blog3",
+        "url":"blog (3).jpg",
+        "title": "Choose the Right Camera",
+        "subTitle": "The best camera it's the one you love, but find it could be complicated",
+        "author": "Daniele Ciulli",
+        "data": "05/01/2021"
+    }
+]

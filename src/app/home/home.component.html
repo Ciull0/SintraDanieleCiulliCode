@@ -1,37 +1,47 @@
-<p>home works!</p>
 <div class="container-flex">
     <app-navbar></app-navbar>
     <div class="row">
         <div class="col-12">
-            <app-hero-big></app-hero-big>
+            <app-hero-big [info]="home[0]"></app-hero-big>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 col-md-4">
-            <app-hero-small></app-hero-small>
+    <div class="row heroSmall">
+        <div class="col-12 col-md-4 heroSmall">
+            <app-hero-small [info]="home[1]"></app-hero-small>
         </div>
-        <div class="col-12 col-md-4">
-            <app-hero-small></app-hero-small>
+        <div class="col-12 col-md-4 heroSmall">
+            <app-hero-small [info]="home[2]"></app-hero-small>
         </div>
-        <div class="col-12 col-md-4">
-            <app-hero-small></app-hero-small>
+        <div class="col-12 col-md-4 heroSmall">
+            <app-hero-small [info]="home[3]"></app-hero-small>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
             <h1>Prodotti</h1>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-2" >
-            <app-product-btn></app-product-btn>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2" *ngFor="let prodotto of prodottiVisibili" >
+            <app-product-btn [info]="prodotto"></app-product-btn>
         </div>
-        <div class="col-12"><button class="btn btn-dark">Load More</button></div>
+        <div class="row" *ngIf="nascosti">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2" *ngFor="let prod of prodottiNascosti" >
+                <app-product-btn [info]="prod"></app-product-btn>
+            </div>
+        </div>
+        <div class="col-12"><button (click)="nascosti = !nascosti" class="btn btn-dark">Load More</button></div>
     </div>
     <div class="row">
         <div class="col-12">
             <h1>Latest Blog Post</h1>
         </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-2" >
-            <app-product-btn></app-product-btn>
+        <div class="col-12 col-md-4" >
+            <app-blog-btn [info]="home[4]"></app-blog-btn>
+        </div>
+        <div class="col-12 col-md-4" >
+            <app-blog-btn [info]="home[5]"></app-blog-btn>
+        </div>
+        <div class="col-12 col-md-4" >
+            <app-blog-btn [info]="home[6]"></app-blog-btn>
         </div>
     </div>
     <div class="row">

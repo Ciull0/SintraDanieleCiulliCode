@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UtilityService } from '../utility.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private util: UtilityService
+  ) { }
+
+  home = [];
+  prodottiVisibili = [];
+  prodottiNascosti = [];
+  nascosti = false;
 
   ngOnInit(): void {
+    let tmp:any = this.util.mandaInfo("home");
+        tmp.then(dati=>{
+        this.home = dati;
+    })
+    let tmp2:any = this.util.mandaInfo("product");
+        tmp2.then(inf=>{
+
+        this.prodottiVisibili = inf.slice(0,6);
+        this.prodottiNascosti = inf.slice(6);
+    })
   }
 
 }

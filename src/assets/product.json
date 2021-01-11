@@ -1,16 +1,257 @@
 [
     {
-        "name": "Olympus E-M10 Mark 2",
+        "name": "Olympus Pen",
         "price": "399.99",
         "sale": "0.20",
-        "new": "false",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "0",
+        "tag": "mirrorless,camera,mft,m4/3",
+        "cover": "olympus.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "olympus.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "olympus (1).jpg"
+            }
+        ],
+        "rating":"4",
+        "reviews": "52",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Sony A6000",
+        "price": "499.99",
+        "sale": "0.10",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
         "id": "1",
+        "tag": "mirrorless,camera,e-mount,rangefinder",
+        "cover": "sony.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "sony.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "sony (1).jpg"
+            }
+        ],
+        "rating":"4.5",
+        "reviews": "7",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Canon 800D",
+        "price": "599.99",
+        "sale": "0",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "2",
+        "tag": "reflex,camera,EF",
+        "cover": "canon.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "canon.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "canon (1).jpg"
+            }
+        ],
+        "rating":"3.6",
+        "reviews": "20",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Fujifilm X100T",
+        "price": "899.99",
+        "sale": "0.20",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "3",
         "tag": "mirrorless,camera,mft,m4/3",
-        "cover": "foto1.jpg",
-        "photos": "foto1.jpg,foto2.jpg,foto3.jpg",
+        "cover": "fuji.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "fuji.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "fuji (1).jpg"
+            }
+        ],
         "rating":"4",
         "reviews": "5",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Nikon D810",
+        "price": "1299.99",
+        "sale": "0.30",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "4",
+        "tag": "mirrorless,camera,mft,m4/3",
+        "cover": "nikon.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "nikon.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "nikon (1).jpg"
+            }
+        ],
+        "rating":"4.7",
+        "reviews": "50",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Leica M6",
+        "price": "2399.99",
+        "sale": "0",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "5",
+        "tag": "mirrorless,camera,mft,m4/3",
+        "cover": "leica (1).jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "leica.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "leica (1).jpg"
+            }
+        ],
+        "rating":"4",
+        "reviews": "5",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Pentax K1000",
+        "price": "99.99",
+        "sale": "0",
+        "new": false,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "6",
+        "tag": "camera,K-mount,analog,film,reflex",
+        "cover": "pentax.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "pentax.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "pentax (1).jpg"
+            }
+        ],
+        "rating":"4.1",
+        "reviews": "30",
+        "colors": [
+            {
+                "name": "Silver",
+                "hex": "8a8a8a"
+            },
+            {
+                "name": "Black",
+                "hex": "000000"
+            }
+        ]
+    },
+    {
+        "name": "Yashica Mat 124G",
+        "price": "1399.99",
+        "sale": "0.20",
+        "new": true,
+        "about": "Breve descrizione del prodotto da scrivere in cima",
+        "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
+        "id": "7",
+        "tag": "camera,film,mediumFormat,1",
+        "cover": "yashica.jpg",
+        "photos": [
+            {
+                "color":"Silver",
+                "url:": "yashica.jpg"
+            },
+            {
+                "color":"Black",
+                "url:": "yashica (1).jpg"
+            }
+        ],
+        "rating":"5",
+        "reviews": "4.8",
         "colors": [
             {
                 "name": "Silver",
