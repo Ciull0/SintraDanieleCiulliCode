@@ -12,6 +12,9 @@ import { BlogBtnComponent } from './blog-btn/blog-btn.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProductPageComponent } from './product-page/product-page.component';
+import { SafelineComponent } from './safeline/safeline.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +25,17 @@ import { HttpClientModule } from '@angular/common/http';
     ProductBtnComponent,
     BlogBtnComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ProductPageComponent,
+    SafelineComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

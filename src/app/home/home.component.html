@@ -19,6 +19,9 @@
     <div class="row">
         <div class="col-12">
             <h1>Prodotti</h1>
+            <div class="sep"></div>
+            <p>I migliori prodotti a prezzi economici<p>
+            <br>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-2" *ngFor="let prodotto of prodottiVisibili" >
             <app-product-btn [info]="prodotto"></app-product-btn>
@@ -29,10 +32,15 @@
             </div>
         </div>
         <div class="col-12"><button (click)="nascosti = !nascosti" class="btn btn-dark">Load More</button></div>
+        <br>
     </div>
-    <div class="row">
+    <br>
+    <div class="row white">
         <div class="col-12">
             <h1>Latest Blog Post</h1>
+            <div class="sep"></div>
+            <p>Le ultime notizie sulla fotografia<p>
+            <br>
         </div>
         <div class="col-12 col-md-4" >
             <app-blog-btn [info]="home[4]"></app-blog-btn>
@@ -45,12 +53,20 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 form">
+            <br>
             <h3>Subscribe to Our Newsletter</h3>
-            <form action="">
-                <input type="text" placeholder="Your Email Address">
+            <div class="sep"></div>
+            <p>Really awsome stuff, not the usual spam you are never gonna read</p>
+            <form class="form-inline" action="">
+                <input class="form-control" type="email" placeholder="Your Email Address">
                 <input type="submit" value="Suscribe" class="btn btn-dark">
             </form>
         </div>
     </div>
+    <br>
+    <div class="row">
+        <app-safeline></app-safeline>
+    </div>
 </div>
+<app-footer></app-footer>

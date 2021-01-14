@@ -4,3 +4,26 @@
 *{
     text-align: center;
 }
+.row{
+    background-color: lightgrey;
+}
+.white{
+    background-color: white;
+}
+.sep{
+    width: 300px;
+    height: 1px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-block;
+}
+.form-inline{
+    display: inline-block;
+    text-align: center;
+}
+.btn,.form-control{
+    border-radius: 0px;
+}
+.form{
+    padding-bottom: 30px;
+}

@@ -6,7 +6,7 @@
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "0",
+        "id": "olympuspen",
         "tag": "mirrorless,camera,mft,m4/3",
         "cover": "olympus.jpg",
         "photos": [
@@ -33,13 +33,13 @@
         ]
     },
     {
-        "name": "Sony A6000",
+        "name": "Sony A6400",
         "price": "499.99",
         "sale": "0.10",
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "1",
+        "id": "sonya6400",
         "tag": "mirrorless,camera,e-mount,rangefinder",
         "cover": "sony.jpg",
         "photos": [
@@ -72,7 +72,7 @@
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "2",
+        "id": "canon800d",
         "tag": "reflex,camera,EF",
         "cover": "canon.jpg",
         "photos": [
@@ -105,7 +105,7 @@
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "3",
+        "id": "fujifilmx100t",
         "tag": "mirrorless,camera,mft,m4/3",
         "cover": "fuji.jpg",
         "photos": [
@@ -138,7 +138,7 @@
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "4",
+        "id": "nikond810",
         "tag": "mirrorless,camera,mft,m4/3",
         "cover": "nikon.jpg",
         "photos": [
@@ -171,7 +171,7 @@
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "5",
+        "id": "leicam6",
         "tag": "mirrorless,camera,mft,m4/3",
         "cover": "leica (1).jpg",
         "photos": [
@@ -204,7 +204,7 @@
         "new": false,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "6",
+        "id": "pentaxk1000",
         "tag": "camera,K-mount,analog,film,reflex",
         "cover": "pentax.jpg",
         "photos": [
@@ -237,7 +237,7 @@
         "new": true,
         "about": "Breve descrizione del prodotto da scrivere in cima",
         "description": "Qualcosa da dire sul prodotto, le sue caratteristiche, qualche informazione cosa su di lui, ecc...",
-        "id": "7",
+        "id": "yashicamat124g",
         "tag": "camera,film,mediumFormat,1",
         "cover": "yashica.jpg",
         "photos": [
