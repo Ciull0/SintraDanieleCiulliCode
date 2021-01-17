@@ -1,24 +1,28 @@
 [
     {
         "id":"heroBig",
+        "link": "fujifilmx100t",
         "url":"heroBig.jpg",
         "title": "Great Photos",
         "subTitle": "Need Great Equipment"
     },
     {
         "id":"heroSmall1",
+        "link": "leicam6",
         "url":"heroSmall (1).jpg",
         "title": "Classic URSS fun",
         "subTitle": "Cheap Leica? URSS Leica!"
     },
     {
         "id":"heroSmall2",
+        "link": "sonya6400",
         "url":"heroSmall (2).jpg",
         "title": "Small Beast",
         "subTitle": "The Best Camera is The One with You"
     },
     {
         "id":"heroSmall3",
+        "link": "fujifilmx100t",
         "url":"heroSmall (3).jpg",
         "title": "Good Look",
         "subTitle": "Sometimes the Camera is a Fashion Statement"

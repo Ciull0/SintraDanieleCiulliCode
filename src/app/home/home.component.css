@@ -1,8 +1,13 @@
+app-product-btn{
+    height: 100%;
+}
+
 .heroSmall{
     padding: 10px;
 }
 *{
     text-align: center;
+    overflow-x: hidden;
 }
 .row{
     background-color: lightgrey;
@@ -16,6 +21,9 @@
     border: 1px solid black;
     border-radius: 4px;
     display: inline-block;
+}
+h1{
+    overflow: hidden;
 }
 .form-inline{
     display: inline-block;

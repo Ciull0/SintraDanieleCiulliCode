@@ -1,9 +1,13 @@
-<div class="card bg-dark text-white">
+<div class="card text-white" [routerLink]="'/'+info.id">
+  <div class="priceBox" *ngIf="info.sale != 0">
+      <h6>-{{info.sale*100}}%</h6>
+  </div>
     <img class="card-img-top" [src]="'assets/'+info.cover" alt="Card image">
     <div class="card-body">
-      <div>
+      <div class="innerbox">
         <h5 class="card-title">{{info.name}}</h5>
-        <p class="card-text">{{info.price}} Euro</p>
+        <p *ngIf="info.sale == 0" class="card-text">{{info.price}} Euro</p>
+        <h6 *ngIf="info.sale != 0"><h6 class="priceOnSale">{{info.price}} Euro</h6>{{(info.price * (1-info.sale)).toFixed(2)}} Euro</h6>
       </div>
     </div>
 </div>

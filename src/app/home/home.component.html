@@ -33,6 +33,7 @@
         </div>
         <div class="col-12"><button (click)="nascosti = !nascosti" class="btn btn-dark">Load More</button></div>
         <br>
+        <br>
     </div>
     <br>
     <div class="row white">
@@ -66,7 +67,9 @@
     </div>
     <br>
     <div class="row">
-        <app-safeline></app-safeline>
+        <div class="col-6 col-md-3 safeline" *ngFor="let info of safeline">
+            <app-safeline [info]="info"></app-safeline>
+        </div>
     </div>
 </div>
 <app-footer></app-footer>

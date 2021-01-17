@@ -1,3 +1,4 @@
+
 nav{
     position: fixed;
     z-index: 100;
@@ -9,6 +10,12 @@ nav{
 .left{
     text-align: left;
 }
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
 .btn-group{
     background-color: inherit;
     font-weight: bolder !important;
@@ -18,4 +25,39 @@ nav{
     font-weight: bolder;
     color: white;
     background-color: inherit !important;
+}
+.btnBar{
+    padding-right: 20px !important;
+}
+.openNav{
+    background-color: gray;
+    border-radius: 10px;
+}
+.btn-mobile{
+    display: inline-block;
+    width: 100%;
+    opacity: 1;
+    z-index: 200;
+    color: black;
+}
+.menu-mobile>svg{
+    fill: black;
+}
+
+.menu-mobile{
+    background-color: oldlace;
+    padding-bottom: 10px;
+}
+
+.notification{
+    position: absolute;
+}
+
+
+.img-bar{
+    display: inline;
+    color: white;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }

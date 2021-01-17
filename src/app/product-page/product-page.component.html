@@ -1,1 +1,129 @@
-<p>product-page works!</p>
+<div class="all">    
+    <app-navbar></app-navbar>
+    <div class="row navbarBG"></div>
+    <div class="container">
+        <div class="d-none d-md-block sepTop"></div>
+        <div class="row chronoBar">
+            <div class="col-6 left">
+                <h6 routerLink="/" >Homepage   >   {{prodotto.name}}</h6>
+            </div>
+            <div class="col-6 right"><h6 routerLink="/" >< Back To Products ></h6></div>
+        </div>
+        <div class="row buyzone">
+            <div class="d-none d-lg-block col-1 imgGallery">
+                <img *ngFor="let img of prodotto.photos" class="imgGallery" (click)="fotoPrincipale = img" [src]="'assets/'+img.url" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-lg-5 imgBig">
+                <img class="imgBig" [src]="'assets/'+fotoPrincipale.url" alt="">
+                <img *ngFor="let immagini of prodotto.photos" [src]="'assets/'+immagini.url" class="galleryMobile d-inline-block d-lg-none" (click)="fotoPrincipale = immagini" alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>{{prodotto.name}}</h3>
+                <br>
+                <h4 *ngIf="prodotto.sale == 0">{{prodotto.price}} Euro</h4>
+                <h4 *ngIf="prodotto.sale != 0"><h4 class="priceOnSale">{{prodotto.price}} Euro</h4>{{(prodotto.price * (1-prodotto.sale)).toFixed(2)}} Euro</h4>
+                <p>{{prodotto.about}}</p>
+                <div class="colori" *ngFor="let colore of prodotto.colors">
+                    <div class="colore" [style.background-color]="'#'+colore.hex"></div>
+                    <h5>{{colore.name}}</h5>
+                </div>
+                <div class="buyzone">
+                    <div class="quantitySel left">
+                        <button class="btn btnPlus" (click)="changeQuantity('+')">+</button>
+                        <span class="quantity center">{{quantity}}</span>
+                        <button class="btn right btnMinus" (click)="changeQuantity('-')">-</button>
+                    </div>
+                    <div class="buybutton right">
+                        <button class="btn btnBuy">Acquista Ora</button>
+                    </div>
+                </div>
+                <div class="totaleZone">
+                    <h3>Totale: {{totale}}</h3>
+                </div>
+                <br>
+                <div><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal" /></div>
+                <br>
+                <p><mark>Tags:</mark> {{prodotto.tag}}</p>
+            </div>
+        </div>
+        <div class="row btnRow text-center">
+            <div class="col-md-3 col-6 modeSel">
+                <button class="btn optionBar selected" (click)="cambiaBloccoVisibile('description')" id="description">Description</button>
+            </div>
+            <div class="col-md-3 col-6 optionBar" >
+                <button class="btn" id="addinfo" (click)="cambiaBloccoVisibile('addinfo')" >Additional Info</button>
+            </div>
+            <div class="col-md-3 col-6 optionBar" >
+                <button class="btn" id="warranty" (click)="cambiaBloccoVisibile('warranty')" >Warranty & Shipping</button>
+            </div>
+            <div class="col-md-3 col-6 optionBar" >
+                <button class="btn" id="reviews" (click)="cambiaBloccoVisibile('reviews')" >Reviews</button>
+            </div>
+        </div>
+        <br><br>
+        <div class="row center" *ngIf="bloccoVisibile == 'description'">
+            <div class="col-12"><p>{{prodotto.description}}</p></div>
+            <div class="col-lg-4 col-12">
+                <img class="img-description" [src]="'assets/'+prodotto.photos[0].url"  alt="">
+            </div>
+            <div class="col-lg-4 col-12">
+                <img class="img-description" [src]="'assets/'+prodotto.photos[1].url"  alt="">
+            </div>
+            <div class="col-lg-4 col-12">
+                <img class="img-description" [src]="'assets/'+prodotto.photos[0].url"  alt="">
+            </div>
+            <div class="sepTop"></div>
+            <div class="col-12">
+                <img class="img-description" [src]="'assets/'+prodotto.photos[1].url"  alt="">
+            </div>
+        </div>
+        <div class="row" *ngIf="bloccoVisibile == 'addinfo'">
+            <table class="table d-none d-lg-block">
+                <thead>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Sale</th>
+                    <th>About</th>
+                    <th>Id</th>
+                    <th>Tags</th>
+                </thead>
+                <tbody>
+                    <td>{{prodotto.name}}</td>
+                    <td>{{prodotto.price}}</td>
+                    <td>{{(prodotto.sale)*100}}%</td>
+                    <td>{{prodotto.about}}</td>
+                    <td>{{prodotto.id}}</td>
+                    <td>{{prodotto.tag}}</td>
+                </tbody>
+            </table>
+            <ul class="d-block d-lg-none">
+                <li>Name: {{prodotto.name}}</li>
+                <li>Price: {{prodotto.price}}</li>
+                <li>Sale: {{(prodotto.sale)*100}}%</li>
+                <li>About: {{prodotto.about}}</li>
+                <li>Id: {{prodotto.id}}</li>
+                <li>Tag: {{prodotto.tag}}</li>
+            </ul>
+        </div>
+        <div class="row" *ngIf="bloccoVisibile == 'warranty'">
+            <div class="col-6 col-md-3 safeline" *ngFor="let info of safeline">
+                <app-safeline [info]="info"></app-safeline>
+            </div>
+        </div>
+        <div class="row" *ngIf="bloccoVisibile == 'reviews'">
+            <div class="col-6 col-md-3 col-lg-2 reviewBox" *ngFor="let rev of reviews">
+                <app-review-box [review]="rev"></app-review-box>
+            </div>
+        </div>
+        <div class="row randomProducts">
+            <div class="col-12 info">
+                <h1>You may also like</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3" *ngFor="let prod of consigliati" >
+                <app-product-btn [info]="prod"></app-product-btn>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <app-footer></app-footer>
+</div>

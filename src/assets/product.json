@@ -12,11 +12,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "olympus.jpg"
+                "url": "olympus.jpg"
             },
             {
                 "color":"Black",
-                "url:": "olympus (1).jpg"
+                "url": "olympus (1).jpg"
             }
         ],
         "rating":"4",
@@ -45,11 +45,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "sony.jpg"
+                "url": "sony.jpg"
             },
             {
                 "color":"Black",
-                "url:": "sony (1).jpg"
+                "url": "sony (1).jpg"
             }
         ],
         "rating":"4.5",
@@ -78,11 +78,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "canon.jpg"
+                "url": "canon.jpg"
             },
             {
                 "color":"Black",
-                "url:": "canon (1).jpg"
+                "url": "canon (1).jpg"
             }
         ],
         "rating":"3.6",
@@ -111,11 +111,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "fuji.jpg"
+                "url": "fuji.jpg"
             },
             {
                 "color":"Black",
-                "url:": "fuji (1).jpg"
+                "url": "fuji (1).jpg"
             }
         ],
         "rating":"4",
@@ -144,11 +144,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "nikon.jpg"
+                "url": "nikon.jpg"
             },
             {
                 "color":"Black",
-                "url:": "nikon (1).jpg"
+                "url": "nikon (1).jpg"
             }
         ],
         "rating":"4.7",
@@ -177,11 +177,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "leica.jpg"
+                "url": "leica.jpg"
             },
             {
                 "color":"Black",
-                "url:": "leica (1).jpg"
+                "url": "leica (1).jpg"
             }
         ],
         "rating":"4",
@@ -210,11 +210,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "pentax.jpg"
+                "url": "pentax.jpg"
             },
             {
                 "color":"Black",
-                "url:": "pentax (1).jpg"
+                "url": "pentax (1).jpg"
             }
         ],
         "rating":"4.1",
@@ -231,7 +231,7 @@
         ]
     },
     {
-        "name": "Yashica Mat 124G",
+        "name": "Yashica MAT 124G",
         "price": "1399.99",
         "sale": "0.20",
         "new": true,
@@ -243,11 +243,11 @@
         "photos": [
             {
                 "color":"Silver",
-                "url:": "yashica.jpg"
+                "url": "yashica.jpg"
             },
             {
                 "color":"Black",
-                "url:": "yashica (1).jpg"
+                "url": "yashica (1).jpg"
             }
         ],
         "rating":"5",

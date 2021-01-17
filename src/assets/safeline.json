@@ -1,0 +1,22 @@
+[
+    {
+        "url":"shipped.svg",
+        "title":"Free Shipping",
+        "subtitle":"Free shipping for all IT orders"
+    },
+    {
+        "url":"help-lifeguard-symbol.svg",
+        "title":"Support 24/7",
+        "subtitle":"We support 24 hours a day"
+    },
+    {
+        "url":"refresh.svg",
+        "title":"30 Days Return",
+        "subtitle":"You have 30 days to return"
+    },
+    {
+        "url":"shield.svg",
+        "title":"Payments 100% Secure",
+        "subtitle":"Payments 100& Secure"
+    }
+]

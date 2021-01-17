@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { SafelineComponent } from './safeline/safeline.component';
+import { ReviewBoxComponent } from './review-box/review-box.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SafelineComponent } from './safeline/safeline.component';
     HomeComponent,
     FooterComponent,
     ProductPageComponent,
-    SafelineComponent
+    SafelineComponent,
+    ReviewBoxComponent
   ],
   imports: [
     BrowserModule,

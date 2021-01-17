@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   home = [];
   prodottiVisibili = [];
   prodottiNascosti = [];
+  safeline = [];
   nascosti = false;
 
   ngOnInit(): void {
@@ -27,6 +28,10 @@ export class HomeComponent implements OnInit {
 
         this.prodottiVisibili = inf.slice(0,6);
         this.prodottiNascosti = inf.slice(6);
+    })
+    let tmp3:any = this.util.mandaInfo("safeline");
+        tmp3.then(safe=>{
+        this.safeline = safe;
     })
   }
 

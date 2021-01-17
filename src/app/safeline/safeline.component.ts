@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-safeline',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./safeline.component.css']
 })
 export class SafelineComponent implements OnInit {
+
+  @Input() info;
 
   constructor() { }
 

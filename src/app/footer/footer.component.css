@@ -1,6 +1,7 @@
 .list-group-item{
     border: 0px;
     text-align: left;
+    background-color: inherit;
 }
 .contatti>p{
     text-align: left;
@@ -18,4 +19,7 @@
 }
 .igRow{
     height: 100%;
+}
+.all{
+    background-color: oldlace;
 }
